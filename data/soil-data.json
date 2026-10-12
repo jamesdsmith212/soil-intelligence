@@ -1,0 +1,3181 @@
+{
+  "schemaVersion": "synthetic-demo-1",
+  "synthetic": true,
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "sources": {
+    "workbook": "Synthetic demo generator",
+    "boundaries": "Invented schematic rectangles near 0°/0°; no real farm",
+    "grids": "Synthetic 1 ha-labelled demo cells (illustrative areas)"
+  },
+  "fields": [
+    {
+      "id": "demo-field-a",
+      "canonicalId": "demo-field-a",
+      "name": "Demo Arable A",
+      "crop": "Winter wheat",
+      "areaHa": 4,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0.0018,
+              0
+            ],
+            [
+              0.0018,
+              0.0018
+            ],
+            [
+              0,
+              0.0018
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "results": [
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Winter wheat",
+          "pValue": 11,
+          "kValue": 98,
+          "pIndex": "1",
+          "kIndex": "1",
+          "ph": 6.1,
+          "metrics": {
+            "ph": {
+              "value": 5.88,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 10,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 92,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 70,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 1.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Winter wheat",
+          "samplingGridId": "demo-grid-1-1",
+          "metrics": {
+            "ph": {
+              "value": 5.8,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 8,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "0",
+              "indexValue": 0
+            },
+            "potassium": {
+              "value": 80,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 65,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 1.7,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "clay": {
+              "value": 17,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sand": {
+              "value": 50,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "silt": {
+              "value": 33,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "boron": {
+              "value": 0.7,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "copper": {
+              "value": 3,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "iron": {
+              "value": 400,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "manganese": {
+              "value": 20,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "molybdenum": {
+              "value": 0.12,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sodium": {
+              "value": 30,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sulphur": {
+              "value": 12,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "zinc": {
+              "value": 2,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Winter wheat",
+          "samplingGridId": "demo-grid-1-2",
+          "metrics": {
+            "ph": {
+              "value": 5.88,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 10,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 92,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 70,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 1.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Winter wheat",
+          "samplingGridId": "demo-grid-1-3",
+          "metrics": {
+            "ph": {
+              "value": 5.96,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 12,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 104,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 75,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3.4,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 1.9,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Winter wheat",
+          "samplingGridId": "demo-grid-1-4",
+          "metrics": {
+            "ph": {
+              "value": 6.04,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 14,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 116,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 80,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3.6,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "clay": {
+              "value": 20,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sand": {
+              "value": 47,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "silt": {
+              "value": 33,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "boron": {
+              "value": 0.7,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "copper": {
+              "value": 3,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "iron": {
+              "value": 400,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "manganese": {
+              "value": 29,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "molybdenum": {
+              "value": 0.12,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sodium": {
+              "value": 30,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sulphur": {
+              "value": 15,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "zinc": {
+              "value": 2,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2022-01-15",
+          "dateSort": "2022-01-15",
+          "crop": "Winter wheat",
+          "metrics": {
+            "ph": {
+              "value": 5.88,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 13,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 92,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 70,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 1.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2024-01-15",
+          "dateSort": "2024-01-15",
+          "crop": "Winter wheat",
+          "metrics": {
+            "ph": {
+              "value": 5.88,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 11,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 92,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "magnesium": {
+              "value": 70,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 3.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 1.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-field-b",
+      "canonicalId": "demo-field-b",
+      "name": "Demo Rotation B",
+      "crop": "Grass ley",
+      "areaHa": 4,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0022,
+              0
+            ],
+            [
+              0.004,
+              0
+            ],
+            [
+              0.004,
+              0.0018
+            ],
+            [
+              0.0022,
+              0.0018
+            ],
+            [
+              0.0022,
+              0
+            ]
+          ]
+        ]
+      },
+      "results": [
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Grass ley",
+          "pValue": 18,
+          "kValue": 143,
+          "pIndex": "2",
+          "kIndex": "2-",
+          "ph": 6.3,
+          "metrics": {
+            "ph": {
+              "value": 6.13,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 17,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 137,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 98,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 4.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.3,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Grass ley",
+          "samplingGridId": "demo-grid-2-1",
+          "metrics": {
+            "ph": {
+              "value": 6.05,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 15,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "1",
+              "indexValue": 1
+            },
+            "potassium": {
+              "value": 125,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 93,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 4,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "clay": {
+              "value": 20,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sand": {
+              "value": 46,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "silt": {
+              "value": 34,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "boron": {
+              "value": 1,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "copper": {
+              "value": 4,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "iron": {
+              "value": 500,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "manganese": {
+              "value": 20,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "molybdenum": {
+              "value": 0.15,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sodium": {
+              "value": 40,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sulphur": {
+              "value": 12,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "zinc": {
+              "value": 2.5,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Grass ley",
+          "samplingGridId": "demo-grid-2-2",
+          "metrics": {
+            "ph": {
+              "value": 6.13,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 17,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 137,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 98,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 4.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.3,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Grass ley",
+          "samplingGridId": "demo-grid-2-3",
+          "metrics": {
+            "ph": {
+              "value": 6.21,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 19,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 149,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 103,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 4.4,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.4,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Grass ley",
+          "samplingGridId": "demo-grid-2-4",
+          "metrics": {
+            "ph": {
+              "value": 6.29,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 21,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 161,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 108,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 4.6,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.5,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "clay": {
+              "value": 23,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sand": {
+              "value": 43,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "silt": {
+              "value": 34,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "boron": {
+              "value": 1,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "copper": {
+              "value": 4,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "iron": {
+              "value": 500,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "manganese": {
+              "value": 29,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "molybdenum": {
+              "value": 0.15,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sodium": {
+              "value": 40,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sulphur": {
+              "value": 15,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "zinc": {
+              "value": 2.5,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2022-01-15",
+          "dateSort": "2022-01-15",
+          "crop": "Winter wheat",
+          "metrics": {
+            "ph": {
+              "value": 6.13,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 20,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 137,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 98,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 4.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.3,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2024-01-15",
+          "dateSort": "2024-01-15",
+          "crop": "Winter wheat",
+          "metrics": {
+            "ph": {
+              "value": 6.13,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 18,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 137,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 98,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "organic-matter": {
+              "value": 4.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.3,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-field-c",
+      "canonicalId": "demo-field-c",
+      "name": "Demo Grass C",
+      "crop": "Permanent grass",
+      "areaHa": 4,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0.0022
+            ],
+            [
+              0.0018,
+              0.0022
+            ],
+            [
+              0.0018,
+              0.004
+            ],
+            [
+              0,
+              0.004
+            ],
+            [
+              0,
+              0.0022
+            ]
+          ]
+        ]
+      },
+      "results": [
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Permanent grass",
+          "pValue": 25,
+          "kValue": 188,
+          "pIndex": "2",
+          "kIndex": "2+",
+          "ph": 6.5,
+          "metrics": {
+            "ph": {
+              "value": 6.38,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 24,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 182,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2+",
+              "indexValue": 2.3
+            },
+            "magnesium": {
+              "value": 126,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Permanent grass",
+          "samplingGridId": "demo-grid-3-1",
+          "metrics": {
+            "ph": {
+              "value": 6.3,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 22,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 170,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2-",
+              "indexValue": 1.7
+            },
+            "magnesium": {
+              "value": 121,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.7,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "clay": {
+              "value": 23,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sand": {
+              "value": 42,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "silt": {
+              "value": 35,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "boron": {
+              "value": 1.3,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "copper": {
+              "value": 5,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "iron": {
+              "value": 600,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "manganese": {
+              "value": 20,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "molybdenum": {
+              "value": 0.18,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sodium": {
+              "value": 50,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sulphur": {
+              "value": 12,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "zinc": {
+              "value": 3,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Permanent grass",
+          "samplingGridId": "demo-grid-3-2",
+          "metrics": {
+            "ph": {
+              "value": 6.38,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 24,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 182,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2+",
+              "indexValue": 2.3
+            },
+            "magnesium": {
+              "value": 126,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Permanent grass",
+          "samplingGridId": "demo-grid-3-3",
+          "metrics": {
+            "ph": {
+              "value": 6.46,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 26,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "potassium": {
+              "value": 194,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2+",
+              "indexValue": 2.3
+            },
+            "magnesium": {
+              "value": 131,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5.4,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.9,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2026-01-15",
+          "dateSort": "2026-01-15",
+          "crop": "Permanent grass",
+          "samplingGridId": "demo-grid-3-4",
+          "metrics": {
+            "ph": {
+              "value": 6.54,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 28,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "potassium": {
+              "value": 206,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2+",
+              "indexValue": 2.3
+            },
+            "magnesium": {
+              "value": 136,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5.6,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 3,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "clay": {
+              "value": 26,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sand": {
+              "value": 39,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "silt": {
+              "value": 35,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "boron": {
+              "value": 1.3,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "copper": {
+              "value": 5,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "iron": {
+              "value": 600,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "manganese": {
+              "value": 29,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "molybdenum": {
+              "value": 0.18,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sodium": {
+              "value": 50,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "sulphur": {
+              "value": 15,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "zinc": {
+              "value": 3,
+              "unit": "ppm",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2022-01-15",
+          "dateSort": "2022-01-15",
+          "crop": "Permanent grass",
+          "metrics": {
+            "ph": {
+              "value": 6.38,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 27,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "potassium": {
+              "value": 182,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2+",
+              "indexValue": 2.3
+            },
+            "magnesium": {
+              "value": 126,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        },
+        {
+          "date": "2024-01-15",
+          "dateSort": "2024-01-15",
+          "crop": "Permanent grass",
+          "metrics": {
+            "ph": {
+              "value": 6.38,
+              "unit": "pH",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "phosphorus": {
+              "value": 25,
+              "unit": "mg/l",
+              "method": "Olsen P (synthetic)",
+              "indexBand": "2",
+              "indexValue": 2
+            },
+            "potassium": {
+              "value": 182,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "2+",
+              "indexValue": 2.3
+            },
+            "magnesium": {
+              "value": 126,
+              "unit": "mg/l",
+              "method": "Synthetic demonstration; not a laboratory measurement",
+              "indexBand": "3",
+              "indexValue": 3
+            },
+            "organic-matter": {
+              "value": 5.2,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            },
+            "organic-carbon": {
+              "value": 2.8,
+              "unit": "%",
+              "method": "Synthetic demonstration; not a laboratory measurement"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-field-d",
+      "canonicalId": "demo-field-d",
+      "name": "Demo Untested D",
+      "crop": "Winter wheat",
+      "areaHa": 4,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0022,
+              0.0022
+            ],
+            [
+              0.004,
+              0.0022
+            ],
+            [
+              0.004,
+              0.004
+            ],
+            [
+              0.0022,
+              0.004
+            ],
+            [
+              0.0022,
+              0.0022
+            ]
+          ]
+        ]
+      },
+      "results": []
+    }
+  ],
+  "grids": [
+    {
+      "id": "demo-grid-1-1",
+      "fieldId": "demo-field-a",
+      "canonicalFieldId": "demo-field-a",
+      "fieldName": "Demo Arable A",
+      "centroid": [
+        0.00045,
+        0.00045
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0.0009,
+              0
+            ],
+            [
+              0.0009,
+              0.0009
+            ],
+            [
+              0,
+              0.0009
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-1-1",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 5.8,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 8,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "0",
+          "indexValue": 0
+        },
+        "potassium": {
+          "value": 80,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "magnesium": {
+          "value": 65,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "organic-matter": {
+          "value": 3,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 1.7,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "clay": {
+          "value": 17,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sand": {
+          "value": 50,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "silt": {
+          "value": 33,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "boron": {
+          "value": 0.7,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "copper": {
+          "value": 3,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "iron": {
+          "value": 400,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "manganese": {
+          "value": 20,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "molybdenum": {
+          "value": 0.12,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sodium": {
+          "value": 30,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sulphur": {
+          "value": 12,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "zinc": {
+          "value": 2,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-1-2",
+      "fieldId": "demo-field-a",
+      "canonicalFieldId": "demo-field-a",
+      "fieldName": "Demo Arable A",
+      "centroid": [
+        0.00135,
+        0.00045
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0009,
+              0
+            ],
+            [
+              0.0018,
+              0
+            ],
+            [
+              0.0018,
+              0.0009
+            ],
+            [
+              0.0009,
+              0.0009
+            ],
+            [
+              0.0009,
+              0
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-1-2",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 5.88,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 10,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "potassium": {
+          "value": 92,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "magnesium": {
+          "value": 70,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "organic-matter": {
+          "value": 3.2,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 1.8,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-1-3",
+      "fieldId": "demo-field-a",
+      "canonicalFieldId": "demo-field-a",
+      "fieldName": "Demo Arable A",
+      "centroid": [
+        0.00045,
+        0.00135
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0.0009
+            ],
+            [
+              0.0009,
+              0.0009
+            ],
+            [
+              0.0009,
+              0.0018
+            ],
+            [
+              0,
+              0.0018
+            ],
+            [
+              0,
+              0.0009
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-1-3",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 5.96,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 12,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "potassium": {
+          "value": 104,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "magnesium": {
+          "value": 75,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "organic-matter": {
+          "value": 3.4,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 1.9,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-1-4",
+      "fieldId": "demo-field-a",
+      "canonicalFieldId": "demo-field-a",
+      "fieldName": "Demo Arable A",
+      "centroid": [
+        0.00135,
+        0.00135
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0009,
+              0.0009
+            ],
+            [
+              0.0018,
+              0.0009
+            ],
+            [
+              0.0018,
+              0.0018
+            ],
+            [
+              0.0009,
+              0.0018
+            ],
+            [
+              0.0009,
+              0.0009
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-1-4",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.04,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 14,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "potassium": {
+          "value": 116,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "magnesium": {
+          "value": 80,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "organic-matter": {
+          "value": 3.6,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "clay": {
+          "value": 20,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sand": {
+          "value": 47,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "silt": {
+          "value": 33,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "boron": {
+          "value": 0.7,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "copper": {
+          "value": 3,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "iron": {
+          "value": 400,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "manganese": {
+          "value": 29,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "molybdenum": {
+          "value": 0.12,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sodium": {
+          "value": 30,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sulphur": {
+          "value": 15,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "zinc": {
+          "value": 2,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-2-1",
+      "fieldId": "demo-field-b",
+      "canonicalFieldId": "demo-field-b",
+      "fieldName": "Demo Rotation B",
+      "centroid": [
+        0.00265,
+        0.00045
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0022,
+              0
+            ],
+            [
+              0.0031000000000000003,
+              0
+            ],
+            [
+              0.0031000000000000003,
+              0.0009
+            ],
+            [
+              0.0022,
+              0.0009
+            ],
+            [
+              0.0022,
+              0
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-2-1",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.05,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 15,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "1",
+          "indexValue": 1
+        },
+        "potassium": {
+          "value": 125,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2-",
+          "indexValue": 1.7
+        },
+        "magnesium": {
+          "value": 93,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "organic-matter": {
+          "value": 4,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.2,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "clay": {
+          "value": 20,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sand": {
+          "value": 46,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "silt": {
+          "value": 34,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "boron": {
+          "value": 1,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "copper": {
+          "value": 4,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "iron": {
+          "value": 500,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "manganese": {
+          "value": 20,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "molybdenum": {
+          "value": 0.15,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sodium": {
+          "value": 40,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sulphur": {
+          "value": 12,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "zinc": {
+          "value": 2.5,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-2-2",
+      "fieldId": "demo-field-b",
+      "canonicalFieldId": "demo-field-b",
+      "fieldName": "Demo Rotation B",
+      "centroid": [
+        0.00355,
+        0.00045
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0031000000000000003,
+              0
+            ],
+            [
+              0.004,
+              0
+            ],
+            [
+              0.004,
+              0.0009
+            ],
+            [
+              0.0031000000000000003,
+              0.0009
+            ],
+            [
+              0.0031000000000000003,
+              0
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-2-2",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.13,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 17,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "potassium": {
+          "value": 137,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2-",
+          "indexValue": 1.7
+        },
+        "magnesium": {
+          "value": 98,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "organic-matter": {
+          "value": 4.2,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.3,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-2-3",
+      "fieldId": "demo-field-b",
+      "canonicalFieldId": "demo-field-b",
+      "fieldName": "Demo Rotation B",
+      "centroid": [
+        0.00265,
+        0.00135
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0022,
+              0.0009
+            ],
+            [
+              0.0031000000000000003,
+              0.0009
+            ],
+            [
+              0.0031000000000000003,
+              0.0018
+            ],
+            [
+              0.0022,
+              0.0018
+            ],
+            [
+              0.0022,
+              0.0009
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-2-3",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.21,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 19,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "potassium": {
+          "value": 149,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2-",
+          "indexValue": 1.7
+        },
+        "magnesium": {
+          "value": 103,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "organic-matter": {
+          "value": 4.4,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.4,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-2-4",
+      "fieldId": "demo-field-b",
+      "canonicalFieldId": "demo-field-b",
+      "fieldName": "Demo Rotation B",
+      "centroid": [
+        0.00355,
+        0.00135
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0031000000000000003,
+              0.0009
+            ],
+            [
+              0.004,
+              0.0009
+            ],
+            [
+              0.004,
+              0.0018
+            ],
+            [
+              0.0031000000000000003,
+              0.0018
+            ],
+            [
+              0.0031000000000000003,
+              0.0009
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-2-4",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.29,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 21,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "potassium": {
+          "value": 161,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2-",
+          "indexValue": 1.7
+        },
+        "magnesium": {
+          "value": 108,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "organic-matter": {
+          "value": 4.6,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.5,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "clay": {
+          "value": 23,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sand": {
+          "value": 43,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "silt": {
+          "value": 34,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "boron": {
+          "value": 1,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "copper": {
+          "value": 4,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "iron": {
+          "value": 500,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "manganese": {
+          "value": 29,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "molybdenum": {
+          "value": 0.15,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sodium": {
+          "value": 40,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sulphur": {
+          "value": 15,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "zinc": {
+          "value": 2.5,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-3-1",
+      "fieldId": "demo-field-c",
+      "canonicalFieldId": "demo-field-c",
+      "fieldName": "Demo Grass C",
+      "centroid": [
+        0.00045,
+        0.00265
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0.0022
+            ],
+            [
+              0.0009,
+              0.0022
+            ],
+            [
+              0.0009,
+              0.0031000000000000003
+            ],
+            [
+              0,
+              0.0031000000000000003
+            ],
+            [
+              0,
+              0.0022
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-3-1",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.3,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 22,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "potassium": {
+          "value": 170,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2-",
+          "indexValue": 1.7
+        },
+        "magnesium": {
+          "value": 121,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "organic-matter": {
+          "value": 5,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.7,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "clay": {
+          "value": 23,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sand": {
+          "value": 42,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "silt": {
+          "value": 35,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "boron": {
+          "value": 1.3,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "copper": {
+          "value": 5,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "iron": {
+          "value": 600,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "manganese": {
+          "value": 20,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "molybdenum": {
+          "value": 0.18,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sodium": {
+          "value": 50,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sulphur": {
+          "value": 12,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "zinc": {
+          "value": 3,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-3-2",
+      "fieldId": "demo-field-c",
+      "canonicalFieldId": "demo-field-c",
+      "fieldName": "Demo Grass C",
+      "centroid": [
+        0.00135,
+        0.00265
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0009,
+              0.0022
+            ],
+            [
+              0.0018,
+              0.0022
+            ],
+            [
+              0.0018,
+              0.0031000000000000003
+            ],
+            [
+              0.0009,
+              0.0031000000000000003
+            ],
+            [
+              0.0009,
+              0.0022
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-3-2",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.38,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 24,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "2",
+          "indexValue": 2
+        },
+        "potassium": {
+          "value": 182,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2+",
+          "indexValue": 2.3
+        },
+        "magnesium": {
+          "value": 126,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "organic-matter": {
+          "value": 5.2,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.8,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-3-3",
+      "fieldId": "demo-field-c",
+      "canonicalFieldId": "demo-field-c",
+      "fieldName": "Demo Grass C",
+      "centroid": [
+        0.00045,
+        0.00355
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0.0031000000000000003
+            ],
+            [
+              0.0009,
+              0.0031000000000000003
+            ],
+            [
+              0.0009,
+              0.004
+            ],
+            [
+              0,
+              0.004
+            ],
+            [
+              0,
+              0.0031000000000000003
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-3-3",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.46,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 26,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "potassium": {
+          "value": 194,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2+",
+          "indexValue": 2.3
+        },
+        "magnesium": {
+          "value": 131,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "organic-matter": {
+          "value": 5.4,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 2.9,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-3-4",
+      "fieldId": "demo-field-c",
+      "canonicalFieldId": "demo-field-c",
+      "fieldName": "Demo Grass C",
+      "centroid": [
+        0.00135,
+        0.00355
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0009,
+              0.0031000000000000003
+            ],
+            [
+              0.0018,
+              0.0031000000000000003
+            ],
+            [
+              0.0018,
+              0.004
+            ],
+            [
+              0.0009,
+              0.004
+            ],
+            [
+              0.0009,
+              0.0031000000000000003
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "sampleId": "demo-sample-3-4",
+      "sampleDate": "2026-01-15",
+      "results": {
+        "ph": {
+          "value": 6.54,
+          "unit": "pH",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "phosphorus": {
+          "value": 28,
+          "unit": "mg/l",
+          "method": "Olsen P (synthetic)",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "potassium": {
+          "value": 206,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "2+",
+          "indexValue": 2.3
+        },
+        "magnesium": {
+          "value": 136,
+          "unit": "mg/l",
+          "method": "Synthetic demonstration; not a laboratory measurement",
+          "indexBand": "3",
+          "indexValue": 3
+        },
+        "organic-matter": {
+          "value": 5.6,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "organic-carbon": {
+          "value": 3,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "clay": {
+          "value": 26,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sand": {
+          "value": 39,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "silt": {
+          "value": 35,
+          "unit": "%",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "boron": {
+          "value": 1.3,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "copper": {
+          "value": 5,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "iron": {
+          "value": 600,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "manganese": {
+          "value": 29,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "molybdenum": {
+          "value": 0.18,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sodium": {
+          "value": 50,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "sulphur": {
+          "value": 15,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        },
+        "zinc": {
+          "value": 3,
+          "unit": "ppm",
+          "method": "Synthetic demonstration; not a laboratory measurement"
+        }
+      }
+    },
+    {
+      "id": "demo-grid-4-1",
+      "fieldId": "demo-field-d",
+      "canonicalFieldId": "demo-field-d",
+      "fieldName": "Demo Untested D",
+      "centroid": [
+        0.00265,
+        0.00265
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0022,
+              0.0022
+            ],
+            [
+              0.0031000000000000003,
+              0.0022
+            ],
+            [
+              0.0031000000000000003,
+              0.0031000000000000003
+            ],
+            [
+              0.0022,
+              0.0031000000000000003
+            ],
+            [
+              0.0022,
+              0.0022
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "results": {}
+    },
+    {
+      "id": "demo-grid-4-2",
+      "fieldId": "demo-field-d",
+      "canonicalFieldId": "demo-field-d",
+      "fieldName": "Demo Untested D",
+      "centroid": [
+        0.00355,
+        0.00265
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0031000000000000003,
+              0.0022
+            ],
+            [
+              0.004,
+              0.0022
+            ],
+            [
+              0.004,
+              0.0031000000000000003
+            ],
+            [
+              0.0031000000000000003,
+              0.0031000000000000003
+            ],
+            [
+              0.0031000000000000003,
+              0.0022
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "results": {}
+    },
+    {
+      "id": "demo-grid-4-3",
+      "fieldId": "demo-field-d",
+      "canonicalFieldId": "demo-field-d",
+      "fieldName": "Demo Untested D",
+      "centroid": [
+        0.00265,
+        0.00355
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0022,
+              0.0031000000000000003
+            ],
+            [
+              0.0031000000000000003,
+              0.0031000000000000003
+            ],
+            [
+              0.0031000000000000003,
+              0.004
+            ],
+            [
+              0.0022,
+              0.004
+            ],
+            [
+              0.0022,
+              0.0031000000000000003
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "results": {}
+    },
+    {
+      "id": "demo-grid-4-4",
+      "fieldId": "demo-field-d",
+      "canonicalFieldId": "demo-field-d",
+      "fieldName": "Demo Untested D",
+      "centroid": [
+        0.00355,
+        0.00355
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0031000000000000003,
+              0.0031000000000000003
+            ],
+            [
+              0.004,
+              0.0031000000000000003
+            ],
+            [
+              0.004,
+              0.004
+            ],
+            [
+              0.0031000000000000003,
+              0.004
+            ],
+            [
+              0.0031000000000000003,
+              0.0031000000000000003
+            ]
+          ]
+        ]
+      },
+      "areaHa": 1,
+      "results": {}
+    }
+  ],
+  "metrics": [
+    {
+      "id": "ph",
+      "name": "pH",
+      "category": "Core",
+      "categories": [
+        "Core"
+      ],
+      "units": [
+        "pH"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 21,
+      "gridResultCount": 12,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "category": "Core",
+      "categories": [
+        "Core"
+      ],
+      "units": [
+        "mg/l"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 21,
+      "gridResultCount": 12,
+      "indexAvailable": true,
+      "gridIndexAvailable": true,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "category": "Core",
+      "categories": [
+        "Core"
+      ],
+      "units": [
+        "mg/l"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 21,
+      "gridResultCount": 12,
+      "indexAvailable": true,
+      "gridIndexAvailable": true,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "category": "Core",
+      "categories": [
+        "Core"
+      ],
+      "units": [
+        "mg/l"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 21,
+      "gridResultCount": 12,
+      "indexAvailable": true,
+      "gridIndexAvailable": true,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "organic-matter",
+      "name": "Organic Matter",
+      "category": "Core",
+      "categories": [
+        "Core"
+      ],
+      "units": [
+        "%"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 21,
+      "gridResultCount": 12,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "organic-carbon",
+      "name": "Organic Carbon",
+      "category": "Core",
+      "categories": [
+        "Core"
+      ],
+      "units": [
+        "%"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 21,
+      "gridResultCount": 12,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "category": "Texture",
+      "categories": [
+        "Texture"
+      ],
+      "units": [
+        "%"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "cross-field"
+    },
+    {
+      "id": "sand",
+      "name": "Sand",
+      "category": "Texture",
+      "categories": [
+        "Texture"
+      ],
+      "units": [
+        "%"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "cross-field"
+    },
+    {
+      "id": "silt",
+      "name": "Silt",
+      "category": "Texture",
+      "categories": [
+        "Texture"
+      ],
+      "units": [
+        "%"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "cross-field"
+    },
+    {
+      "id": "boron",
+      "name": "Boron",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "molybdenum",
+      "name": "Molybdenum",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "sulphur",
+      "name": "Sulphur",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "category": "Trace",
+      "categories": [
+        "Trace"
+      ],
+      "units": [
+        "ppm"
+      ],
+      "methods": [
+        "Synthetic demonstration"
+      ],
+      "kind": "numeric",
+      "resultCount": 6,
+      "gridResultCount": 6,
+      "indexAvailable": false,
+      "gridIndexAvailable": false,
+      "boundaryPolicy": "field-constrained"
+    }
+  ]
+}

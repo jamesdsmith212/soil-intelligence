@@ -1,0 +1,689 @@
+{
+  "synthetic": true,
+  "schemaVersion": "synthetic-demo-1",
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "modelAsAt": "2026-12-31",
+  "sources": {
+    "rotation": "Invented demo rotation",
+    "harvest": "Invented demo yields",
+    "recordedApplications": "Invented demo FYM entry",
+    "privateProducts": "None: no private products supplied",
+    "publicPrices": {
+      "label": "Invented prices, NOT market data",
+      "href": "https://ahdb.org.uk/GB-fertiliser-prices"
+    },
+    "offtake": {
+      "label": "RB209 reference; confirm crop factors for use",
+      "href": "https://ahdb.org.uk/nutrient-management-guide-rb209"
+    }
+  },
+  "model": {
+    "indexBuildAllowanceKgHaPerYear": {
+      "index0": 60,
+      "index1": 30,
+      "source": "Illustrative allowance; review against RB209"
+    },
+    "soilMass": {
+      "p2o5KgPerHaPerMgLAtFullRecovery": 4.5,
+      "k2oKgPerHaPerMgLAtFullRecovery": 2.4
+    },
+    "recoveryRanges": {
+      "p": {
+        "low": 0.1,
+        "central": 0.25,
+        "high": 0.4
+      },
+      "k": {
+        "low": 0.25,
+        "central": 0.5,
+        "high": 0.75
+      },
+      "note": "Illustrative uncertainty, not a validated mass-to-soil-test conversion"
+    },
+    "economics": {
+      "referenceCrop": "Wheat",
+      "referenceYieldTPerHa": 8,
+      "priceUncertaintyPct": 25,
+      "discountRatePct": 5,
+      "cropValueDefaultsGbpPerTonne": {
+        "Wheat": 200,
+        "Barley": 180,
+        "Beans": 250,
+        "Grass": 0,
+        "Other": 200
+      },
+      "combinedCentralCapFraction": 0.18,
+      "combinedHighCapFraction": 0.35,
+      "responsePriorsTPerHaAt8T": {
+        "p": {
+          "index0": {
+            "central": 0.9,
+            "high": 2.1
+          },
+          "index1": {
+            "central": 0.36,
+            "high": 1.6
+          },
+          "index2": {
+            "central": 0.02,
+            "high": 0.2
+          }
+        },
+        "k": {
+          "index0": {
+            "central": 1.1,
+            "high": 3
+          },
+          "index1": {
+            "central": 0.36,
+            "high": 1.5
+          },
+          "index2Minus": {
+            "central": 0.02,
+            "high": 0.3
+          }
+        }
+      },
+      "note": "Uncalibrated planning priors. Demo money and yields are invented, not advice."
+    }
+  },
+  "products": [
+    {
+      "id": "demo-n",
+      "name": "Example nitrogen fertiliser",
+      "category": "Mineral",
+      "pricePerTonne": 333,
+      "priceBasis": "INVENTED demo price: not a supplier quotation or market price",
+      "defaultUnit": "kg/ha",
+      "nutrients": {
+        "n": 34.5
+      },
+      "effectiveness": {
+        "firstYearPAvailability": null,
+        "longTermPBuildRae": null,
+        "kAvailability": null,
+        "evidenceClass": "farm_assumption",
+        "source": "Synthetic demo assumption",
+        "note": "Illustrative only; replace with batch-specific evidence"
+      },
+      "cost": {
+        "materialPricePerTonne": 333,
+        "haulagePerTonne": 0,
+        "handlingPerTonne": 0,
+        "spreadingPerTonne": 0,
+        "spreadingPerHa": 12,
+        "fixedPassCostPerHa": 0,
+        "quotedBundledCost": null
+      },
+      "dataWarnings": [
+        "synthetic_price",
+        "uncalibrated_demo_effectiveness"
+      ]
+    },
+    {
+      "id": "demo-p",
+      "name": "Example phosphate fertiliser",
+      "category": "Mineral",
+      "pricePerTonne": 777,
+      "priceBasis": "INVENTED demo price: not a supplier quotation or market price",
+      "defaultUnit": "kg/ha",
+      "nutrients": {
+        "p2o5": 46
+      },
+      "effectiveness": {
+        "firstYearPAvailability": {
+          "low": 1,
+          "central": 1,
+          "high": 1
+        },
+        "longTermPBuildRae": {
+          "low": 1,
+          "central": 1,
+          "high": 1
+        },
+        "kAvailability": null,
+        "evidenceClass": "farm_assumption",
+        "source": "Synthetic demo assumption",
+        "note": "Illustrative only; replace with batch-specific evidence"
+      },
+      "cost": {
+        "materialPricePerTonne": 777,
+        "haulagePerTonne": 0,
+        "handlingPerTonne": 0,
+        "spreadingPerTonne": 0,
+        "spreadingPerHa": 12,
+        "fixedPassCostPerHa": 0,
+        "quotedBundledCost": null
+      },
+      "dataWarnings": [
+        "synthetic_price",
+        "uncalibrated_demo_effectiveness"
+      ]
+    },
+    {
+      "id": "demo-k",
+      "name": "Example potash fertiliser",
+      "category": "Mineral",
+      "pricePerTonne": 444,
+      "priceBasis": "INVENTED demo price: not a supplier quotation or market price",
+      "defaultUnit": "kg/ha",
+      "nutrients": {
+        "k2o": 60
+      },
+      "effectiveness": {
+        "firstYearPAvailability": null,
+        "longTermPBuildRae": null,
+        "kAvailability": {
+          "low": 0.8,
+          "central": 0.9,
+          "high": 1
+        },
+        "evidenceClass": "farm_assumption",
+        "source": "Synthetic demo assumption",
+        "note": "Illustrative only; replace with batch-specific evidence"
+      },
+      "cost": {
+        "materialPricePerTonne": 444,
+        "haulagePerTonne": 0,
+        "handlingPerTonne": 0,
+        "spreadingPerTonne": 0,
+        "spreadingPerHa": 12,
+        "fixedPassCostPerHa": 0,
+        "quotedBundledCost": null
+      },
+      "dataWarnings": [
+        "synthetic_price",
+        "uncalibrated_demo_effectiveness"
+      ]
+    },
+    {
+      "id": "demo-npk",
+      "name": "Example NPK blend",
+      "category": "Mineral",
+      "pricePerTonne": 555,
+      "priceBasis": "INVENTED demo price: not a supplier quotation or market price",
+      "defaultUnit": "kg/ha",
+      "nutrients": {
+        "n": 15,
+        "p2o5": 15,
+        "k2o": 15
+      },
+      "effectiveness": {
+        "firstYearPAvailability": {
+          "low": 1,
+          "central": 1,
+          "high": 1
+        },
+        "longTermPBuildRae": {
+          "low": 1,
+          "central": 1,
+          "high": 1
+        },
+        "kAvailability": {
+          "low": 0.8,
+          "central": 0.9,
+          "high": 1
+        },
+        "evidenceClass": "farm_assumption",
+        "source": "Synthetic demo assumption",
+        "note": "Illustrative only; replace with batch-specific evidence"
+      },
+      "cost": {
+        "materialPricePerTonne": 555,
+        "haulagePerTonne": 0,
+        "handlingPerTonne": 0,
+        "spreadingPerTonne": 0,
+        "spreadingPerHa": 12,
+        "fixedPassCostPerHa": 0,
+        "quotedBundledCost": null
+      },
+      "dataWarnings": [
+        "synthetic_price",
+        "uncalibrated_demo_effectiveness"
+      ]
+    },
+    {
+      "id": "demo-fym",
+      "name": "Example cattle FYM",
+      "category": "Organic",
+      "pricePerTonne": 22,
+      "priceBasis": "INVENTED demo price: not a supplier quotation or market price",
+      "defaultUnit": "t/ha",
+      "nutrients": {
+        "n": 0.6,
+        "p2o5": 0.32,
+        "k2o": 0.8
+      },
+      "effectiveness": {
+        "firstYearPAvailability": {
+          "low": 0.4,
+          "central": 0.6,
+          "high": 0.8
+        },
+        "longTermPBuildRae": {
+          "low": 0.5,
+          "central": 0.75,
+          "high": 1
+        },
+        "kAvailability": {
+          "low": 0.8,
+          "central": 0.9,
+          "high": 1
+        },
+        "evidenceClass": "farm_assumption",
+        "source": "Synthetic demo assumption",
+        "note": "Illustrative only; replace with batch-specific evidence"
+      },
+      "cost": {
+        "materialPricePerTonne": 22,
+        "haulagePerTonne": 0,
+        "handlingPerTonne": 0,
+        "spreadingPerTonne": 0,
+        "spreadingPerHa": 12,
+        "fixedPassCostPerHa": 0,
+        "quotedBundledCost": null
+      },
+      "dataWarnings": [
+        "synthetic_price",
+        "uncalibrated_demo_effectiveness"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": "demo-field-a",
+      "canonicalId": "demo-field-a",
+      "fieldName": "Demo Arable A",
+      "testDate": "2026-01-15",
+      "testDatePrecision": "day",
+      "rotations": [
+        {
+          "year": 2026,
+          "crop": "Winter wheat",
+          "cropGroup": "Wheat",
+          "forecast": true,
+          "economicForecast": false,
+          "fallbackComposite": false,
+          "includeInProjection": true,
+          "yieldTPerHa": 7.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": true,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 6.5,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1.2,
+            "strawK2oKgPerT": 9.5
+          }
+        },
+        {
+          "year": 2027,
+          "crop": "Faba beans",
+          "cropGroup": "Beans",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 3.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": true,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 11,
+            "grainK2oKgPerT": 12,
+            "strawP2o5KgPerT": 1.5,
+            "strawK2oKgPerT": 10
+          }
+        },
+        {
+          "year": 2028,
+          "crop": "Spring barley",
+          "cropGroup": "Barley",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 5.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": true,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 8,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1,
+            "strawK2oKgPerT": 12
+          }
+        },
+        {
+          "year": 2029,
+          "crop": "Winter wheat",
+          "cropGroup": "Wheat",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 7.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": true,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 6.5,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1.2,
+            "strawK2oKgPerT": 9.5
+          }
+        }
+      ],
+      "recordedApplications": []
+    },
+    {
+      "fieldId": "demo-field-b",
+      "canonicalId": "demo-field-b",
+      "fieldName": "Demo Rotation B",
+      "testDate": "2026-01-15",
+      "testDatePrecision": "day",
+      "rotations": [
+        {
+          "year": 2026,
+          "crop": "Faba beans",
+          "cropGroup": "Beans",
+          "forecast": true,
+          "economicForecast": false,
+          "fallbackComposite": false,
+          "includeInProjection": true,
+          "yieldTPerHa": 3.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 11,
+            "grainK2oKgPerT": 12,
+            "strawP2o5KgPerT": 1.5,
+            "strawK2oKgPerT": 10
+          }
+        },
+        {
+          "year": 2027,
+          "crop": "Spring barley",
+          "cropGroup": "Barley",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 5.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 8,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1,
+            "strawK2oKgPerT": 12
+          }
+        },
+        {
+          "year": 2028,
+          "crop": "Winter wheat",
+          "cropGroup": "Wheat",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 7.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 6.5,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1.2,
+            "strawK2oKgPerT": 9.5
+          }
+        },
+        {
+          "year": 2029,
+          "crop": "Faba beans",
+          "cropGroup": "Beans",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 3.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 11,
+            "grainK2oKgPerT": 12,
+            "strawP2o5KgPerT": 1.5,
+            "strawK2oKgPerT": 10
+          }
+        }
+      ],
+      "recordedApplications": [
+        {
+          "id": "demo-recorded-fym",
+          "date": "2026-03-01",
+          "cropYear": 2026,
+          "productId": "demo-fym",
+          "productName": "Example cattle FYM",
+          "rateKgHa": 10000,
+          "evidence": "confirmed",
+          "nutrientsKgHa": {
+            "n": 60,
+            "p2o5": 32,
+            "k2o": 80,
+            "so3": 0,
+            "mgo": 0,
+            "cao": 0,
+            "neutralisingValue": 0
+          }
+        }
+      ]
+    },
+    {
+      "fieldId": "demo-field-c",
+      "canonicalId": "demo-field-c",
+      "fieldName": "Demo Grass C",
+      "testDate": "2026-01-15",
+      "testDatePrecision": "day",
+      "rotations": [
+        {
+          "year": 2026,
+          "crop": "Permanent grass",
+          "cropGroup": "Grass",
+          "forecast": true,
+          "economicForecast": false,
+          "fallbackComposite": false,
+          "includeInProjection": true,
+          "yieldTPerHa": 0,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 0,
+          "offtake": {
+            "grainP2o5KgPerT": 0,
+            "grainK2oKgPerT": 0,
+            "strawP2o5KgPerT": 0,
+            "strawK2oKgPerT": 0
+          }
+        },
+        {
+          "year": 2027,
+          "crop": "Permanent grass",
+          "cropGroup": "Grass",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 0,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 0,
+          "offtake": {
+            "grainP2o5KgPerT": 0,
+            "grainK2oKgPerT": 0,
+            "strawP2o5KgPerT": 0,
+            "strawK2oKgPerT": 0
+          }
+        },
+        {
+          "year": 2028,
+          "crop": "Permanent grass",
+          "cropGroup": "Grass",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 0,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 0,
+          "offtake": {
+            "grainP2o5KgPerT": 0,
+            "grainK2oKgPerT": 0,
+            "strawP2o5KgPerT": 0,
+            "strawK2oKgPerT": 0
+          }
+        },
+        {
+          "year": 2029,
+          "crop": "Permanent grass",
+          "cropGroup": "Grass",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 0,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 0,
+          "offtake": {
+            "grainP2o5KgPerT": 0,
+            "grainK2oKgPerT": 0,
+            "strawP2o5KgPerT": 0,
+            "strawK2oKgPerT": 0
+          }
+        }
+      ],
+      "recordedApplications": []
+    },
+    {
+      "fieldId": "demo-field-d",
+      "canonicalId": "demo-field-d",
+      "fieldName": "Demo Untested D",
+      "testDate": null,
+      "testDatePrecision": "day",
+      "rotations": [
+        {
+          "year": 2026,
+          "crop": "Winter wheat",
+          "cropGroup": "Wheat",
+          "forecast": true,
+          "economicForecast": false,
+          "fallbackComposite": false,
+          "includeInProjection": true,
+          "yieldTPerHa": 7.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 6.5,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1.2,
+            "strawK2oKgPerT": 9.5
+          }
+        },
+        {
+          "year": 2027,
+          "crop": "Faba beans",
+          "cropGroup": "Beans",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 3.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 11,
+            "grainK2oKgPerT": 12,
+            "strawP2o5KgPerT": 1.5,
+            "strawK2oKgPerT": 10
+          }
+        },
+        {
+          "year": 2028,
+          "crop": "Spring barley",
+          "cropGroup": "Barley",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 5.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 8,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1,
+            "strawK2oKgPerT": 12
+          }
+        },
+        {
+          "year": 2029,
+          "crop": "Winter wheat",
+          "cropGroup": "Wheat",
+          "forecast": true,
+          "economicForecast": true,
+          "fallbackComposite": false,
+          "includeInProjection": false,
+          "yieldTPerHa": 7.5,
+          "yieldSource": "Invented demo rotation and yield",
+          "yieldUncertaintyPct": 25,
+          "yieldLabel": "Synthetic assumption",
+          "strawRemoved": false,
+          "strawTPerHa": 2,
+          "offtake": {
+            "grainP2o5KgPerT": 6.5,
+            "grainK2oKgPerT": 5.5,
+            "strawP2o5KgPerT": 1.2,
+            "strawK2oKgPerT": 9.5
+          }
+        }
+      ],
+      "recordedApplications": []
+    }
+  ]
+}
